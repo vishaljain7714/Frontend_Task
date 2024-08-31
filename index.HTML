@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search by College Name">
+    </div>
+
+    <div class="table-container">
+        <table id="college-table">
+            <thead>
+                <tr class="header-row">
+                    <th onclick="sortTable('rank')">CD Rank</th>
+                    <th onclick="sortTable('name')">Colleges</th>
+                    <th onclick="sortTable('fees')">Course Fees</th>
+                    <th onclick="sortTable('placement')">Placement</th>
+                    <th onclick="sortTable('userRating')">User Reviews</th>
+                    <th onclick="sortTable('ranking')">Ranking</th>
+                </tr>
+            </thead>
+            <tbody id="college-body">
+                <!-- Rows will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <div id="loader">Loading...</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 20px;
+}
+
+#search-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#search-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.table-container {
+  overflow-x: auto;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.header-row th {
+  background-color: #00bcd4;
+  color: white;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.header-row th:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+.header-row th:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+.featured {
+  background-color: #fff8e1;
+}
+
+.featured-flag {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ff4081;
+  color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.compare-checkbox {
+  margin-left: 10px;
+}
+
+#loader {
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}
+.clg-name{
+  color: skyblue;
+}
+.location{
+  color: gray;
+  font-size: 13px;
+  margin-top: 3px;
+}
+.cutoff{
+background-color: rgb(234, 219, 193);
+/* padding: 3px; */
+/* padding-left: 0px; */
+display: flex;
+}
+.cutoff1{
+  background-color: rgb(234, 219, 193);
+  padding: 3px;
+}
+.stream{
+  color: orange;
+}
+.advance{
+  color: gray;
+  font-size: 13px;
+}
+.line{
+  width: 5px;
+  background-color: orange;
+}
+.common{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.orange{
+  color: orange;
+
+}
+.gray{
+  color: gray;
+  
+}
+.green{
+  color: green;
+}
+.ss{
+  color: gray;
+  font-size: small;
+}
+.ll{
+  color:gray;
+  font-size: large
+}
+.kk{
+  background-color: orange;
+  font-size:small;
+}
+.pp{
+  background-color: rgb(42, 100, 187);
+  font-size:small;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  width: 50px
+  
+
+}
